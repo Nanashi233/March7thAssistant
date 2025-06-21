@@ -1,13 +1,15 @@
 # 更新日志
 
-## v2025.6.12
+## v2025.6.14
 
-- 支持 3.3 版本新增关卡和角色 [#580](https://github.com/moesnow/March7thAssistant/pull/580)
+- 支持 3.3 版本新增关卡和角色 [#580](https://github.com/moesnow/March7thAssistant/pull/580) [#597](https://github.com/moesnow/March7thAssistant/pull/597)
 - 支持将抽卡记录导出为 Excel 文件 [#574](https://github.com/moesnow/March7thAssistant/pull/574)
 - 支持修改每轮拟造花萼挑战次数 [#592](https://github.com/moesnow/March7thAssistant/pull/592)
 - 设置页面的滑块增加按钮以便更精细的控制 [#591](https://github.com/moesnow/March7thAssistant/pull/591)
 - 修复差分宇宙暂退图片 [#594](https://github.com/moesnow/March7thAssistant/pull/594)
+- 修复抽卡数据存在异常时无法正常导出 Excel
 - 修复部分选项导致图形界面闪退
+- 修复 Gotify 推送异常
 - 模拟宇宙（Auto_Simulated_Universe）v8.04
 - 模拟宇宙支持通过 Mirror酱 进行更新
 
@@ -458,7 +460,7 @@
 - 移除 power_total、dispatch_count、ocr_path 配置项
 - 使用消耗品前会先筛选类别避免背包物品太多
 - 升级 [PaddleOCR-json_v.1.3.1](https://github.com/hiroi-sora/PaddleOCR-json/releases/tag/v1.3.1)，兼容 Win7 x64
-- 支持 [RapidOCR-json_v0.2.0](https://github.com/hiroi-sora/RapidOCR-json/releases/download/v0.2.0/RapidOCR-json_v0.2.0.7z)，兼容没有 AVX2 指令集的 CPU（自动判断）
+- 支持 [RapidOCR-json_v0.2.0](https://github.com/hiroi-sora/RapidOCR-json/releases/download/v0.2.0/RapidOCR-json_v0.2.0.7z)，兼容没有 AVX 指令集的 CPU（自动判断）
 
 ## v1.6.1
 
